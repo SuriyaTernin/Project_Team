@@ -42,7 +42,7 @@
   </a>
 </div>
        <div class="col-lg-3 col-md-6">
-        <router-link to="/About">
+        <router-link to="/Contact">
            <div class="item">
              <div class="icon-menu">
                <i class="fa-solid fa-user fa-2x"></i>
@@ -58,29 +58,50 @@
  <div class="section trending most-played">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-        <div class="section-heading">
-          <h2>ติดต่อ</h2>
-        </div>
+      <h3>ติดต่อ</h3>
+  <!-- คอลัมน์ของแบบฟอร์ม -->
+  <div class="col-lg-6 col-md-12 mt-3">
+    <form action="">
+      <div class="form-group">
+        <label for="fullname">ชื่อ-นามสกุล</label>
+        <input type="text" id="fullname" class="form-control" placeholder="กรอกชื่อ-นามสกุล">
       </div>
+      <div class="form-group">
+        <label for="tel">เบอร์โทร</label>
+        <input type="text" id="tel" class="form-control" placeholder="กรอกเบอร์โทร">
+      </div>
+      <div class="form-group">
+        <label for="fullname">E-Mail</label>
+        <input type="email" id="email" class="form-control" placeholder="กรอกอีเมล์">
+      </div>
+      <div class="form-group">
+        <label for="detail">รายละเอียด</label>
+        <textarea id="detail" rows="4" cols="50" class="form-control"> 
+        </textarea>
+      </div>
+      <div class="form-group mt-3">
+        <button type="submit" class="btn btn-primary">บันทึก</button>
+      </div>
+    </form>
+  </div>
 
-      <!-- คอลัมน์ของข้อมูลนักศึกษา -->
-      <div class="col-lg-6 col-md-12">
-  <div class="student-info">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.9272011300823!2d100.99023347508421!3d13.41683318694101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3617ee04db97%3A0x2250cf181ed25837!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lio4Lij4Li14Lib4LiX4Li44LihIOC4p-C4tOC4l-C4ouC4suC5gOC4guC4leC4iuC4peC4muC4uOC4o-C4tQ!5e0!3m2!1sth!2sth!4v1732505798879!5m2!1sth!2sth" 
-      width="100%" 
-      height="450" 
-      style="border: 0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-    <p>มหาวิทยาลัยศรีปทุม ชลบุรี 79 ถนนบางนา-ตราด ตำบลคลองตำหรุ อำเภอเมือง จังหวัดชลบุรี 20000 โทรศัพท์ 038-146-123 e-mail : computer@chonburi.spu.ac.th. Sripatum</p>
+  <!-- คอลัมน์ของข้อมูลและ Google Map -->
+  <div class="col-lg-6 col-md-12">
+    <div class="student-info">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.9272011300823!2d100.99023347508421!3d13.41683318694101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3617ee04db97%3A0x2250cf181ed25837!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lio4Lij4Li14Lib4LiX4Li44LihIOC4p-C4tOC4l-C4ouC4suC5gOC4guC4leC4iuC4peC4muC4uOC4o-C4tQ!5e0!3m2!1sth!2sth!4v1732505798879!5m2!1sth!2sth" 
+        width="100%" 
+        height="450" 
+        style="border: 0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <p>มหาวิทยาลัยศรีปทุม ชลบุรี 79 ถนนบางนา-ตราด ตำบลคลองตำหรุ อำเภอเมือง จังหวัดชลบุรี 20000 โทรศัพท์ 038-146-123 e-mail : computer@chonburi.spu.ac.th. Sripatum</p>
+    </div>
   </div>
 </div>
 
-    </div>
   </div>
 </div>
 

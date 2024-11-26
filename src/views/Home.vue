@@ -72,7 +72,7 @@
     </a>
   </div>
          <div class="col-lg-3 col-md-6">
-          <router-link to="/About">
+          <router-link to="/Contact">
              <div class="item">
                <div class="icon-menu">
                  <i class="fa-solid fa-user fa-2x"></i>
